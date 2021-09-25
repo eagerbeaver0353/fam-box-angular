@@ -2,30 +2,22 @@
 
 .intro {
   position: relative;
+  top: 2em;
+  margin: 2em;
+  text-align: center;
 }
 
-.intro__img {
-  box-shadow: var(--bs);
+.section__title, .section__title--intro {
+  text-align: center;
 }
 
 .section__subtitle--intro {
   display: inline-block;
 }
 
-.intro__img {
-  grid-area: img;
-  min-width: 250px;
-  position: relative;
-  z-index: 2;
-}
-
 .section__subtitle--intro {
-  align-self: start;
-  grid-column: -1 / 1;
-  grid-row: 2;
-  text-align: right;
+  text-align: center;
   position: relative;
-  left: -1.5em;
-  width: calc(100% + 1.5em);
+  width: auto;
 }
 
