@@ -47,6 +47,10 @@ body {
   line-height: 1.6;
 }
 
+section {
+  padding: 5em 2em;
+}
+
 /* Buttons */
 
 .btn {

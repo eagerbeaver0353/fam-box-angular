@@ -13,11 +13,19 @@
 
 .section__subtitle--intro {
   display: inline-block;
-}
-
-.section__subtitle--intro {
   text-align: center;
   position: relative;
   width: auto;
 }
 
+.section__example {
+  background-color: var(--clr-accent);
+
+}
+
+.section__example img {
+  margin: 2em;
+  width: 400px;
+  height: 400px;
+  box-shadow: var(--bs);
+}
