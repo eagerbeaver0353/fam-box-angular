@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { IntroComponent } from './intro/intro.component';
+import { ChatComponent } from './chat/chat.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     FooterComponent,
-    IntroComponent
+    IntroComponent,
+    ChatComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,

@@ -45,6 +45,12 @@ body {
   margin: 0;
   font-family: var(--ff-primary);
   line-height: 1.6;
+  padding: 30px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 section {

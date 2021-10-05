@@ -1,17 +1,20 @@
 <header>
   <div class="logo">
-      <h1>FamBox</h1>
+    <h1>FamBox</h1>
   </div>
   <!-- <button class="nav-toggle" aria-label="toggle navigation">
       <span class="hamburger"></span>
   </button> -->
   <nav class="nav">
       <ul class="nav__list">
-          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#signup" class="nav__link">Sign Up</a></li>
-          <div>/</div>
-          <li class="nav__item"><a href="#login" class="nav__link">Login</a></li>
-          <li class="nav__item"><a href="#userprofile" class="nav__link"><i class="fas fa-user"></i></a></li>
+        <li class="nav__item"><a routerLink="/about" routerLinkActive="active" class="nav__link">About</a></li>
+        <li class="nav__item"><a routerLink="/chat" routerLinkActive="active" class="nav__link">Chat</a></li>
+        <li class="nav__item"><a href="#signup" class="nav__link">Sign Up</a></li>
+        <span>/</span>
+        <li class="nav__item"><a href="#login" class="nav__link">Login</a></li>
+        <li class="nav__item"><a href="#userprofile" class="nav__link"><i class="fas fa-user"></i></a></li>
       </ul>
   </nav>
 </header>
+
+<router-outlet></router-outlet>
